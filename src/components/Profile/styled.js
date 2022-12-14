@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledUserProfile = styled.div`
+export const StyledProfile = styled.div`
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -8,6 +8,7 @@ export const StyledUserProfile = styled.div`
    width: 350px;
    height: 500px;
    box-shadow: ${p => p.theme.shadows.card};
+  background-color: ${p => p.theme.colors.background};
 `;
 export const StyledUserDescription = styled.div`
    width: 260px;
@@ -50,12 +51,12 @@ export const StyledUserStateItem = styled.li`
    align-items: center;
    width: 100%;
    height: 80px;
-   border: 1px solid ${p => p.theme.colors.white};
+   border: 1px solid ${p => p.theme.colors.background};
    border-radius: 5px;
    background-color: ${p => p.theme.colors.accent};
 `;
 
 export const StyledUserStateLabel = styled.span`
-   color: ${p => p.theme.colors.white};
+   color: ${p => p.theme.colors.background};
 `;
 

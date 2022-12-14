@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {
-   StyledUserProfile,
+  StyledProfile,
    StyledUserDescription,
    StyledUserAvatar,
    StyledUserName,
@@ -16,7 +16,7 @@ export const Profile = ({
                            avatar,
                            stats: { followers, views, likes },
                         }) => {
-   return <StyledUserProfile className='profile'>
+   return <StyledProfile className='profile'>
       <StyledUserDescription className='description'>
          <StyledUserAvatar src={avatar} alt={username + 'avatar'} className='avatar'></StyledUserAvatar>
          <StyledUserName className='name'>{username}</StyledUserName>
@@ -39,7 +39,7 @@ export const Profile = ({
             <StyledUserStateLabel>{likes}</StyledUserStateLabel>
          </StyledUserStateItem>
       </StyledUserStateList>
-   </StyledUserProfile>;
+   </StyledProfile>;
 };
 
 

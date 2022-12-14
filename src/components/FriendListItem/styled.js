@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const StyledFriendsItem = styled.li`
-   width: 100%;
-   height: 70px;
-   box-shadow: ${p => p.theme.shadows.card};
-   display: flex;
-   padding-left: 60px;
-   align-items: center;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  padding-left: 60px;
+  align-items: center;
+  box-shadow: ${p => p.theme.shadows.card};
+  background-color: ${p => p.theme.colors.background};
 `;
 export const StyledFriendStatus = styled.span`
    width: 20px;

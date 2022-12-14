@@ -6,6 +6,7 @@ export const StyledStatistics = styled.section`
   width: 350px;
   height: 152px;
   box-shadow: ${p => p.theme.shadows.card};
+  background-color: ${p => p.theme.colors.background};
 `;
 export const StyledStaticsTitle = styled.h2`
 color: ${p => p.theme.colors.text};
@@ -23,11 +24,11 @@ export const StyledStaticsItem = styled.li`
    align-items: center;
    width: 100%;
    height: 80px;
-   border: 1px solid ${p => p.theme.colors.white};
+   border: 1px solid ${p => p.theme.colors.background};
    border-radius: 5px;
    background-color: ${p => p.theme.colors.accent};
 `;
 
 export const StyledStaticsLabel = styled.p`
-   color: ${p => p.theme.colors.white};
+   color: ${p => p.theme.colors.background};
 `;
