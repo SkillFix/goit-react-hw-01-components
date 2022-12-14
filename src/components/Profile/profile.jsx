@@ -5,7 +5,7 @@ import {
    StyledUserAvatar,
    StyledUserName,
    StyledUserTag,
-   StyledUserLocation, StyledUserStateList, StyledUserStateItem, StyledUserStateLabel, StyledUserStateQuantity,
+   StyledUserLocation, StyledUserStateList, StyledUserStateItem, StyledUserStateLabel,
 } from './styled';
 
 
